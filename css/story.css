@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.story_page {}
+
+
+.header_wrap {
+	height:500px;
+	/*background-image:url("../images/story/bg_header01.jpg");
+	background-position:0 0;
+	background-repeat:no-repeat;*/
+	background:url("../images/story/bg_header01.jpg") center 0 no-repeat;
+	background-size:auto 500px;
+	margin-bottom:50px;
+}
+
+.cmp_story {
+	width:1080px; margin:0 auto;
+}
+
+@media (max-width:1079px) {
+	.header_wrap {
+		height:200px;
+		background-size:auto 200px;
+	}
+	.cmp_story {
+		width:auto;
+		margin:0 15px;
+	}
+}
